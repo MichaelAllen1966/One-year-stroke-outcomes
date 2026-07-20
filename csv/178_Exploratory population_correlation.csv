@@ -1,0 +1,529 @@
+,variable,value,abs_value,r-squared
+onset_time_type_NK,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,1.0,1.0,1.0
+stroke_type_I,stroke_type_PIH,-0.9817,0.9817,0.9638
+covid_status_Vaccination only,covid_status_None,-0.9512,0.9512,0.9048
+Treatment_time_270_both_only_ivt_under_270mins,Treatment_time_270_both_None,-0.8764,0.8764,0.768
+eth5_Asian or Asian British,eth5_White,-0.6957,0.6957,0.484
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,onset_time_type_NK,-0.5614,0.5614,0.3152
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,-0.5614,0.5614,0.3152
+onset_time_type_P,onset_time_type_BE,-0.5257,0.5257,0.2763
+onset_time_type_BE,onset_time_type_NK,-0.5127,0.5127,0.2629
+onset_time_type_BE,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.5127,0.5127,0.2629
+eth5_White,"eth5_Black, Black British, Caribbean or African",-0.504,0.504,0.254
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,onset_time_type_P,-0.4608,0.4608,0.2124
+onset_time_type_NK,onset_time_type_P,-0.4608,0.4608,0.2124
+onset_time_type_P,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,0.4561,0.4561,0.2081
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,-0.4538,0.4538,0.2059
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,Treatment_time_270_both_None,-0.3736,0.3736,0.1396
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,onset_time_type_BE,0.3703,0.3703,0.1371
+prior_disability,age,0.3641,0.3641,0.1326
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.3634,0.3634,0.132
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,onset_time_type_NK,-0.3634,0.3634,0.132
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,Treatment_time_270_both_only_ivt_under_270mins,0.3533,0.3533,0.1249
+onset_time_type_P,Treatment_time_270_both_None,-0.3287,0.3287,0.1081
+onset_time_type_P,Treatment_time_270_both_only_ivt_under_270mins,0.3212,0.3212,0.1032
+eth5_White,eth5_Other ethnic group,-0.2917,0.2917,0.0851
+any_afib_diagnosis,age,0.2795,0.2795,0.0781
+eth5_White,eth5_Mixed or multiple ethnic groups,-0.2484,0.2484,0.0617
+prior_disability,stroke_severity_arrival,0.2265,0.2265,0.0513
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,Treatment_time_270_both_None,0.2266,0.2266,0.0513
+Treatment_time_270_both_None,onset_time_type_NK,0.2266,0.2266,0.0513
+Treatment_time_270_both_None,Treatment_time_270_both_only_mt_over_270mins,-0.2239,0.2239,0.0501
+onset_time_type_NK,Treatment_time_270_both_only_ivt_under_270mins,-0.2163,0.2163,0.0468
+Treatment_time_270_both_only_ivt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.2163,0.2163,0.0468
+Treatment_time_270_both_None,stroke_severity_arrival,-0.2109,0.2109,0.0445
+Treatment_time_270_both_only_ivt_over_270mins,Treatment_time_270_both_None,-0.2007,0.2007,0.0403
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,-0.1935,0.1935,0.0374
+Treatment_time_270_both_None,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.1926,0.1926,0.0371
+Treatment_time_270_both_None,Treatment_time_270_both_ivt_mt_under_270mins,-0.1913,0.1913,0.0366
+Treatment_time_270_both_None,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,0.1856,0.1856,0.0345
+stroke_type_PIH,stroke_severity_arrival,0.1753,0.1753,0.0307
+Treatment_time_270_both_only_ivt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.1748,0.1748,0.0306
+stroke_type_I,stroke_severity_arrival,-0.1699,0.1699,0.0289
+IMD_2019_QUINTILES,age,0.1669,0.1669,0.0279
+stroke_type_I,stroke_type_NK,-0.1667,0.1667,0.0278
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,stroke_severity_arrival,0.1654,0.1654,0.0274
+stroke_severity_arrival,age,0.1629,0.1629,0.0266
+covid_status_Vaccination and infection,covid_status_None,-0.1581,0.1581,0.025
+age,eth5_White,0.1568,0.1568,0.0246
+onset_time_type_BE,onset_in_hospital_or_arrival_within_6hrs_in_hospital,0.1566,0.1566,0.0245
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.1549,0.1549,0.024
+onset_time_type_NK,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.1549,0.1549,0.024
+any_afib_diagnosis,prior_disability,0.1546,0.1546,0.0239
+Treatment_time_270_both_only_ivt_under_270mins,stroke_severity_arrival,0.1486,0.1486,0.0221
+stroke_type_I,Treatment_time_270_both_None,-0.1408,0.1408,0.0198
+IMD_2019_QUINTILES,eth5_White,0.1398,0.1398,0.0195
+Treatment_time_270_both_None,stroke_type_PIH,0.1383,0.1383,0.0191
+stroke_severity_arrival,any_afib_diagnosis,0.1368,0.1368,0.0187
+Treatment_time_270_both_only_mt_under_270mins,Treatment_time_270_both_None,-0.135,0.135,0.0182
+covid_status_Infection only,covid_status_None,-0.1292,0.1292,0.0167
+diabetes,eth5_White,-0.128,0.128,0.0164
+diabetes,eth5_Asian or Asian British,0.1252,0.1252,0.0157
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.1252,0.1252,0.0157
+stroke_type_I,Treatment_time_270_both_only_ivt_under_270mins,0.1234,0.1234,0.0152
+Treatment_time_270_both_only_ivt_under_270mins,stroke_type_PIH,-0.1212,0.1212,0.0147
+stroke_severity_arrival,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.1183,0.1183,0.014
+"eth5_Black, Black British, Caribbean or African",IMD_2019_QUINTILES,-0.111,0.111,0.0123
+eth5_Asian or Asian British,age,-0.1065,0.1065,0.0113
+onset_time_type_BE,Treatment_time_270_both_only_ivt_under_270mins,-0.1035,0.1035,0.0107
+Treatment_time_270_both_None,onset_time_type_BE,0.1008,0.1008,0.0102
+age,"eth5_Black, Black British, Caribbean or African",-0.0993,0.0993,0.0099
+onset_time_type_BE,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,0.0969,0.0969,0.0094
+Treatment_time_270_both_None,prior_disability,0.0931,0.0931,0.0087
+eth5_Asian or Asian British,IMD_2019_QUINTILES,-0.0917,0.0917,0.0084
+Treatment_time_270_both_ivt_mt_under_270mins,stroke_severity_arrival,0.0905,0.0905,0.0082
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,stroke_severity_arrival,-0.0895,0.0895,0.008
+onset_time_type_NK,stroke_severity_arrival,-0.0895,0.0895,0.008
+diabetes,prior_disability,0.0889,0.0889,0.0079
+Treatment_time_270_both_only_mt_over_270mins,stroke_severity_arrival,0.0841,0.0841,0.0071
+covid_status_Vaccination only,covid_status_Vaccination and infection,-0.0822,0.0822,0.0068
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,stroke_severity_arrival,0.0827,0.0827,0.0068
+prior_disability,onset_in_hospital_or_arrival_within_6hrs_in_hospital,0.082,0.082,0.0067
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,0.0821,0.0821,0.0067
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,Treatment_time_270_both_ivt_mt_under_270mins,0.0787,0.0787,0.0062
+diabetes,IMD_2019_QUINTILES,-0.0781,0.0781,0.0061
+any_afib_diagnosis,eth5_White,0.0772,0.0772,0.006
+onset_time_type_P,Treatment_time_270_both_ivt_mt_under_270mins,0.0738,0.0738,0.0055
+onset_time_type_P,prior_disability,-0.0734,0.0734,0.0054
+prior_disability,Treatment_time_270_both_only_ivt_under_270mins,-0.0687,0.0687,0.0047
+covid_status_Infection only,covid_status_Vaccination only,-0.0672,0.0672,0.0045
+onset_time_type_P,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,0.0665,0.0665,0.0044
+stroke_severity_arrival,Treatment_time_270_both_only_mt_under_270mins,0.0656,0.0656,0.0043
+onset_time_type_P,age,-0.063,0.063,0.004
+any_afib_diagnosis,eth5_Asian or Asian British,-0.0615,0.0615,0.0038
+prior_disability,onset_time_type_BE,0.061,0.061,0.0037
+stroke_type_PIH,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,0.0609,0.0609,0.0037
+Treatment_time_270_both_ivt_mt_over_270mins,Treatment_time_270_both_None,-0.0607,0.0607,0.0037
+any_afib_diagnosis,IMD_2019_QUINTILES,0.0583,0.0583,0.0034
+diabetes,"eth5_Black, Black British, Caribbean or African",0.0565,0.0565,0.0032
+age,Treatment_time_270_both_None,0.0553,0.0553,0.0031
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,age,-0.0544,0.0544,0.003
+onset_time_type_P,stroke_severity_arrival,0.0545,0.0545,0.003
+diabetes,stroke_type_I,0.054,0.054,0.0029
+stroke_type_PIH,diabetes,-0.0541,0.0541,0.0029
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,stroke_type_I,-0.0534,0.0534,0.0028
+age,covid_status_Vaccination only,0.0532,0.0532,0.0028
+age,covid_status_None,-0.0531,0.0531,0.0028
+eth5_Mixed or multiple ethnic groups,age,-0.051,0.051,0.0026
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,any_afib_diagnosis,0.0497,0.0497,0.0025
+onset_time_type_NK,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0475,0.0475,0.0023
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,age,0.0477,0.0477,0.0023
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0475,0.0475,0.0023
+Treatment_time_270_both_ivt_mt_under_270mins,onset_time_type_NK,-0.0472,0.0472,0.0022
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,stroke_type_I,0.0467,0.0467,0.0022
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,stroke_type_PIH,-0.0473,0.0473,0.0022
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,any_afib_diagnosis,-0.0472,0.0472,0.0022
+Treatment_time_270_both_ivt_mt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.0472,0.0472,0.0022
+diabetes,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,-0.0468,0.0468,0.0022
+onset_time_type_BE,age,0.0466,0.0466,0.0022
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,stroke_severity_arrival,0.0436,0.0436,0.0019
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,prior_disability,-0.0428,0.0428,0.0018
+Treatment_time_270_both_only_mt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,0.0428,0.0428,0.0018
+"eth5_Black, Black British, Caribbean or African",any_afib_diagnosis,-0.0416,0.0416,0.0017
+IMD_2019_QUINTILES,covid_status_Vaccination only,0.0402,0.0402,0.0016
+Treatment_time_270_both_None,diabetes,0.0389,0.0389,0.0015
+Treatment_time_270_both_ivt_mt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.0382,0.0382,0.0015
+onset_time_type_P,Treatment_time_270_both_only_mt_under_270mins,0.0387,0.0387,0.0015
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0384,0.0384,0.0015
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,IMD_2019_QUINTILES,0.0387,0.0387,0.0015
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,prior_disability,-0.037,0.037,0.0014
+eth5_Other ethnic group,age,-0.0377,0.0377,0.0014
+IMD_2019_QUINTILES,covid_status_None,-0.037,0.037,0.0014
+any_afib_diagnosis,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,0.0375,0.0375,0.0014
+"eth5_Black, Black British, Caribbean or African",eth5_Asian or Asian British,-0.0377,0.0377,0.0014
+Treatment_time_270_both_ivt_mt_under_270mins,prior_disability,-0.0357,0.0357,0.0013
+stroke_type_NK,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,-0.035,0.035,0.0012
+eth5_White,covid_status_Vaccination only,0.0348,0.0348,0.0012
+Treatment_time_270_both_only_ivt_over_270mins,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,0.0348,0.0348,0.0012
+Treatment_time_270_both_only_mt_under_270mins,onset_time_type_NK,-0.0333,0.0333,0.0011
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,Treatment_time_270_both_only_mt_under_270mins,-0.0333,0.0333,0.0011
+onset_time_type_BE,stroke_severity_arrival,0.0331,0.0331,0.0011
+prior_disability,Treatment_time_270_both_only_mt_over_270mins,-0.0328,0.0328,0.0011
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,IMD_2019_QUINTILES,-0.0337,0.0337,0.0011
+eth5_White,covid_status_None,-0.0314,0.0314,0.001
+Treatment_time_270_both_only_mt_over_270mins,stroke_type_PIH,-0.031,0.031,0.001
+any_afib_diagnosis,Treatment_time_270_both_only_mt_under_270mins,0.0311,0.0311,0.001
+stroke_type_PIH,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.0314,0.0314,0.001
+Treatment_time_270_both_only_ivt_under_270mins,age,-0.0321,0.0321,0.001
+stroke_type_I,Treatment_time_270_both_only_mt_over_270mins,0.0315,0.0315,0.001
+age,Treatment_time_270_both_only_mt_over_270mins,-0.031,0.031,0.001
+Treatment_time_270_both_ivt_mt_under_270mins,age,-0.0312,0.0312,0.001
+diabetes,Treatment_time_270_both_only_ivt_under_270mins,-0.0294,0.0294,0.0009
+age,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0294,0.0294,0.0009
+covid_status_Vaccination only,"eth5_Black, Black British, Caribbean or African",-0.0294,0.0294,0.0009
+onset_time_type_NK,stroke_type_NK,0.0285,0.0285,0.0008
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,stroke_type_I,0.0274,0.0274,0.0008
+Treatment_time_270_both_only_ivt_over_270mins,stroke_type_PIH,-0.0278,0.0278,0.0008
+Treatment_time_270_both_only_ivt_over_270mins,stroke_type_I,0.0283,0.0283,0.0008
+Treatment_time_270_both_only_ivt_over_270mins,stroke_severity_arrival,0.0291,0.0291,0.0008
+any_afib_diagnosis,Treatment_time_270_both_only_ivt_under_270mins,-0.0287,0.0287,0.0008
+Treatment_time_270_both_only_mt_over_270mins,covid_status_None,-0.0278,0.0278,0.0008
+Treatment_time_270_both_only_ivt_over_270mins,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.0285,0.0285,0.0008
+diabetes,onset_time_type_P,-0.0287,0.0287,0.0008
+covid_status_None,"eth5_Black, Black British, Caribbean or African",0.0286,0.0286,0.0008
+IMD_2019_QUINTILES,stroke_type_I,-0.029,0.029,0.0008
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,stroke_type_NK,0.0285,0.0285,0.0008
+stroke_type_PIH,IMD_2019_QUINTILES,0.0291,0.0291,0.0008
+stroke_type_PIH,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0266,0.0266,0.0007
+stroke_type_I,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,0.0271,0.0271,0.0007
+Treatment_time_270_both_ivt_mt_under_270mins,onset_time_type_BE,-0.0262,0.0262,0.0007
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,covid_status_Vaccination only,0.0271,0.0271,0.0007
+Treatment_time_270_both_only_mt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.0269,0.0269,0.0007
+any_afib_diagnosis,onset_time_type_BE,0.026,0.026,0.0007
+Treatment_time_270_both_only_mt_over_270mins,Treatment_time_270_both_only_ivt_under_270mins,-0.0266,0.0266,0.0007
+IMD_2019_QUINTILES,eth5_Mixed or multiple ethnic groups,-0.026,0.026,0.0007
+any_afib_diagnosis,Treatment_time_270_both_only_mt_over_270mins,0.0268,0.0268,0.0007
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,Treatment_time_270_both_only_mt_under_270mins,0.0257,0.0257,0.0007
+Treatment_time_270_both_only_mt_over_270mins,covid_status_Vaccination only,0.0267,0.0267,0.0007
+stroke_type_I,Treatment_time_270_both_ivt_mt_under_270mins,0.0269,0.0269,0.0007
+stroke_severity_arrival,covid_status_Infection only,0.0255,0.0255,0.0007
+stroke_type_PIH,Treatment_time_270_both_ivt_mt_under_270mins,-0.0265,0.0265,0.0007
+covid_status_None,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.0243,0.0243,0.0006
+Treatment_time_270_both_only_ivt_under_270mins,Treatment_time_270_both_only_ivt_over_270mins,-0.0238,0.0238,0.0006
+stroke_type_NK,onset_time_type_P,-0.0235,0.0235,0.0006
+stroke_type_NK,stroke_type_PIH,-0.024,0.024,0.0006
+prior_disability,IMD_2019_QUINTILES,-0.0244,0.0244,0.0006
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,diabetes,0.0236,0.0236,0.0006
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,eth5_White,-0.0245,0.0245,0.0006
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,"eth5_Black, Black British, Caribbean or African",0.0249,0.0249,0.0006
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,diabetes,0.0241,0.0241,0.0006
+stroke_severity_arrival,covid_status_Vaccination only,-0.0242,0.0242,0.0006
+diabetes,stroke_severity_arrival,-0.0243,0.0243,0.0006
+stroke_type_PIH,prior_disability,0.0218,0.0218,0.0005
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,Treatment_time_270_both_only_mt_over_270mins,0.0214,0.0214,0.0005
+IMD_2019_QUINTILES,eth5_Other ethnic group,-0.0229,0.0229,0.0005
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,Treatment_time_270_both_only_ivt_under_270mins,-0.0229,0.0229,0.0005
+Treatment_time_270_both_ivt_mt_over_270mins,stroke_severity_arrival,0.0222,0.0222,0.0005
+eth5_Other ethnic group,eth5_Asian or Asian British,-0.0218,0.0218,0.0005
+stroke_type_NK,Treatment_time_270_both_None,0.0232,0.0232,0.0005
+Treatment_time_270_both_ivt_mt_under_270mins,Treatment_time_270_both_only_ivt_under_270mins,-0.0227,0.0227,0.0005
+covid_status_Infection only,eth5_White,-0.0217,0.0217,0.0005
+stroke_type_PIH,eth5_White,-0.0232,0.0232,0.0005
+stroke_type_I,eth5_White,0.0222,0.0222,0.0005
+stroke_type_I,prior_disability,-0.0222,0.0222,0.0005
+onset_time_type_P,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.0227,0.0227,0.0005
+onset_time_type_BE,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0188,0.0188,0.0004
+Treatment_time_270_both_only_mt_under_270mins,stroke_type_I,0.019,0.019,0.0004
+onset_time_type_NK,any_afib_diagnosis,-0.0208,0.0208,0.0004
+eth5_Mixed or multiple ethnic groups,any_afib_diagnosis,-0.02,0.02,0.0004
+any_afib_diagnosis,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.0208,0.0208,0.0004
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,Treatment_time_270_both_only_mt_over_270mins,-0.0189,0.0189,0.0004
+prior_disability,Treatment_time_270_both_only_ivt_over_270mins,-0.0201,0.0201,0.0004
+Treatment_time_270_both_only_mt_over_270mins,onset_time_type_NK,-0.0189,0.0189,0.0004
+covid_status_Vaccination and infection,stroke_severity_arrival,0.0207,0.0207,0.0004
+onset_time_type_P,eth5_Asian or Asian British,0.0194,0.0194,0.0004
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,covid_status_Infection only,0.0192,0.0192,0.0004
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,covid_status_Vaccination only,-0.0205,0.0205,0.0004
+Treatment_time_270_both_only_ivt_under_270mins,stroke_type_NK,-0.0204,0.0204,0.0004
+covid_status_Vaccination and infection,prior_disability,0.0203,0.0203,0.0004
+stroke_type_PIH,Treatment_time_270_both_only_mt_under_270mins,-0.0187,0.0187,0.0003
+eth5_Mixed or multiple ethnic groups,eth5_Asian or Asian British,-0.0186,0.0186,0.0003
+diabetes,eth5_Other ethnic group,0.0158,0.0158,0.0003
+eth5_Other ethnic group,"eth5_Black, Black British, Caribbean or African",-0.0158,0.0158,0.0003
+Treatment_time_270_both_only_mt_over_270mins,onset_time_type_BE,0.0168,0.0168,0.0003
+Treatment_time_270_both_only_ivt_under_270mins,Treatment_time_270_both_only_mt_under_270mins,-0.016,0.016,0.0003
+eth5_Asian or Asian British,covid_status_Infection only,0.0186,0.0186,0.0003
+onset_time_type_NK,diabetes,0.0168,0.0168,0.0003
+diabetes,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,0.0168,0.0168,0.0003
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,diabetes,-0.0165,0.0165,0.0003
+prior_disability,covid_status_None,-0.0159,0.0159,0.0003
+Treatment_time_270_both_None,any_afib_diagnosis,0.0173,0.0173,0.0003
+stroke_type_NK,onset_in_hospital_or_arrival_within_6hrs_in_hospital,0.0185,0.0185,0.0003
+IMD_2019_QUINTILES,Treatment_time_270_both_None,-0.018,0.018,0.0003
+stroke_severity_arrival,stroke_type_NK,-0.0162,0.0162,0.0003
+Treatment_time_270_both_only_ivt_under_270mins,IMD_2019_QUINTILES,0.0157,0.0157,0.0002
+IMD_2019_QUINTILES,onset_time_type_NK,-0.0135,0.0135,0.0002
+covid_status_Infection only,IMD_2019_QUINTILES,-0.0148,0.0148,0.0002
+age,stroke_type_PIH,0.0142,0.0142,0.0002
+any_afib_diagnosis,covid_status_None,-0.0126,0.0126,0.0002
+stroke_severity_arrival,covid_status_None,0.0137,0.0137,0.0002
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,Treatment_time_270_both_only_ivt_over_270mins,-0.0139,0.0139,0.0002
+covid_status_Vaccination only,diabetes,0.013,0.013,0.0002
+covid_status_Vaccination only,eth5_Other ethnic group,-0.0131,0.0131,0.0002
+Treatment_time_270_both_ivt_mt_under_270mins,diabetes,-0.0149,0.0149,0.0002
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,covid_status_None,0.0148,0.0148,0.0002
+diabetes,covid_status_None,-0.0157,0.0157,0.0002
+eth5_White,onset_in_hospital_or_arrival_within_6hrs_in_hospital,0.0155,0.0155,0.0002
+onset_time_type_BE,"eth5_Black, Black British, Caribbean or African",0.0137,0.0137,0.0002
+eth5_Asian or Asian British,stroke_type_I,-0.0152,0.0152,0.0002
+eth5_Asian or Asian British,stroke_type_PIH,0.0155,0.0155,0.0002
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,covid_status_Vaccination only,0.0139,0.0139,0.0002
+covid_status_None,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0142,0.0142,0.0002
+diabetes,eth5_Mixed or multiple ethnic groups,0.0153,0.0153,0.0002
+covid_status_None,Treatment_time_270_both_only_ivt_under_270mins,0.0149,0.0149,0.0002
+Treatment_time_270_both_only_ivt_under_270mins,covid_status_Vaccination only,-0.0155,0.0155,0.0002
+"eth5_Black, Black British, Caribbean or African",eth5_Mixed or multiple ethnic groups,-0.0135,0.0135,0.0002
+age,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,0.015,0.015,0.0002
+age,covid_status_Infection only,-0.0143,0.0143,0.0002
+covid_status_Vaccination and infection,age,0.0146,0.0146,0.0002
+age,onset_time_type_NK,0.015,0.015,0.0002
+stroke_type_I,any_afib_diagnosis,0.013,0.013,0.0002
+any_afib_diagnosis,stroke_type_PIH,-0.0123,0.0123,0.0002
+age,stroke_type_I,-0.0125,0.0125,0.0002
+eth5_Other ethnic group,covid_status_None,0.0128,0.0128,0.0002
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,eth5_Asian or Asian British,0.013,0.013,0.0002
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,eth5_Asian or Asian British,-0.0141,0.0141,0.0002
+onset_time_type_BE,eth5_Asian or Asian British,-0.0127,0.0127,0.0002
+Treatment_time_270_both_only_ivt_over_270mins,age,-0.0132,0.0132,0.0002
+Treatment_time_270_both_only_mt_under_270mins,prior_disability,-0.013,0.013,0.0002
+stroke_type_PIH,onset_time_type_P,0.0148,0.0148,0.0002
+IMD_2019_QUINTILES,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.0135,0.0135,0.0002
+onset_time_type_BE,stroke_type_PIH,-0.0076,0.0076,0.0001
+age,Treatment_time_270_both_only_mt_under_270mins,-0.0117,0.0117,0.0001
+onset_time_type_NK,prior_disability,0.0104,0.0104,0.0001
+stroke_type_I,onset_time_type_P,-0.0101,0.0101,0.0001
+eth5_Other ethnic group,any_afib_diagnosis,-0.0102,0.0102,0.0001
+any_afib_diagnosis,covid_status_Vaccination only,0.0098,0.0098,0.0001
+covid_status_Vaccination and infection,any_afib_diagnosis,0.0121,0.0121,0.0001
+eth5_Asian or Asian British,covid_status_Vaccination only,-0.0097,0.0097,0.0001
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,eth5_White,0.0091,0.0091,0.0001
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,age,0.0109,0.0109,0.0001
+Treatment_time_270_both_only_mt_under_270mins,covid_status_Vaccination only,0.0074,0.0074,0.0001
+onset_time_type_P,IMD_2019_QUINTILES,0.0079,0.0079,0.0001
+covid_status_Vaccination and infection,"eth5_Black, Black British, Caribbean or African",-0.0077,0.0077,0.0001
+Treatment_time_270_both_only_ivt_over_270mins,onset_time_type_P,0.0113,0.0113,0.0001
+prior_disability,onset_in_hospital_or_arrival_within_6hrs_within_6hrs,-0.0099,0.0099,0.0001
+covid_status_Infection only,"eth5_Black, Black British, Caribbean or African",0.0109,0.0109,0.0001
+stroke_type_I,onset_time_type_BE,0.0084,0.0084,0.0001
+covid_status_Vaccination and infection,covid_status_Infection only,-0.0112,0.0112,0.0001
+age,stroke_type_NK,-0.008,0.008,0.0001
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,covid_status_Infection only,-0.0075,0.0075,0.0001
+stroke_type_I,"eth5_Black, Black British, Caribbean or African",-0.0099,0.0099,0.0001
+"eth5_Black, Black British, Caribbean or African",stroke_type_PIH,0.0106,0.0106,0.0001
+eth5_Other ethnic group,eth5_Mixed or multiple ethnic groups,-0.0078,0.0078,0.0001
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,eth5_Mixed or multiple ethnic groups,0.0077,0.0077,0.0001
+covid_status_None,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,0.0099,0.0099,0.0001
+eth5_Mixed or multiple ethnic groups,covid_status_None,0.0079,0.0079,0.0001
+covid_status_Vaccination only,eth5_Mixed or multiple ethnic groups,-0.0086,0.0086,0.0001
+Treatment_time_270_both_only_mt_over_270mins,diabetes,-0.0122,0.0122,0.0001
+covid_status_None,Treatment_time_270_both_only_mt_under_270mins,-0.0083,0.0083,0.0001
+prior_disability,eth5_Mixed or multiple ethnic groups,-0.0093,0.0093,0.0001
+Treatment_time_270_both_only_ivt_over_270mins,covid_status_None,-0.0075,0.0075,0.0001
+Treatment_time_270_both_only_mt_over_270mins,"eth5_Black, Black British, Caribbean or African",0.0081,0.0081,0.0001
+Treatment_time_270_both_only_ivt_over_270mins,any_afib_diagnosis,-0.0099,0.0099,0.0001
+eth5_White,Treatment_time_270_both_ivt_mt_under_270mins,-0.0073,0.0073,0.0001
+eth5_White,Treatment_time_270_both_only_mt_over_270mins,-0.0071,0.0071,0.0001
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.0107,0.0107,0.0001
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,eth5_Other ethnic group,0.0071,0.0071,0.0001
+covid_status_Vaccination only,Treatment_time_270_both_only_ivt_over_270mins,0.0072,0.0072,0.0001
+prior_disability,covid_status_Infection only,0.0078,0.0078,0.0001
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,"eth5_Black, Black British, Caribbean or African",-0.0104,0.0104,0.0001
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,onset_time_type_P,-0.0084,0.0084,0.0001
+stroke_severity_arrival,eth5_White,-0.0106,0.0106,0.0001
+"eth5_Black, Black British, Caribbean or African",onset_in_hospital_or_arrival_within_6hrs_within_6hrs,-0.0119,0.0119,0.0001
+stroke_type_PIH,Treatment_time_270_both_ivt_mt_over_270mins,-0.0084,0.0084,0.0001
+Treatment_time_270_both_ivt_mt_over_270mins,covid_status_None,-0.0071,0.0071,0.0001
+covid_status_Vaccination only,prior_disability,0.0096,0.0096,0.0001
+Treatment_time_270_both_only_ivt_under_270mins,Treatment_time_270_both_ivt_mt_over_270mins,-0.0072,0.0072,0.0001
+onset_time_type_P,"eth5_Black, Black British, Caribbean or African",-0.0092,0.0092,0.0001
+stroke_type_I,Treatment_time_270_both_ivt_mt_over_270mins,0.0086,0.0086,0.0001
+age,Treatment_time_270_both_ivt_mt_over_270mins,-0.0098,0.0098,0.0001
+Treatment_time_270_both_ivt_mt_over_270mins,prior_disability,-0.0091,0.0091,0.0001
+onset_time_type_NK,covid_status_Vaccination only,-0.0107,0.0107,0.0001
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,IMD_2019_QUINTILES,0.0082,0.0082,0.0001
+eth5_White,onset_time_type_NK,0.0091,0.0091,0.0001
+covid_status_Vaccination only,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.0107,0.0107,0.0001
+covid_status_None,onset_time_type_NK,0.0099,0.0099,0.0001
+eth5_White,onset_time_type_P,-0.0077,0.0077,0.0001
+onset_time_type_BE,diabetes,0.0117,0.0117,0.0001
+prior_disability,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,0.0104,0.0104,0.0001
+stroke_severity_arrival,IMD_2019_QUINTILES,-0.0075,0.0075,0.0001
+"eth5_Black, Black British, Caribbean or African",Treatment_time_270_both_only_ivt_under_270mins,-0.0092,0.0092,0.0001
+onset_time_type_BE,eth5_Mixed or multiple ethnic groups,0.0048,0.0048,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,eth5_Mixed or multiple ethnic groups,-0.0021,0.0021,0.0
+eth5_Mixed or multiple ethnic groups,onset_time_type_NK,-0.004,0.004,0.0
+Treatment_time_270_both_only_mt_over_270mins,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0058,0.0058,0.0
+"eth5_Black, Black British, Caribbean or African",prior_disability,-0.0059,0.0059,0.0
+eth5_Mixed or multiple ethnic groups,onset_time_type_P,-0.001,0.001,0.0
+onset_time_type_P,covid_status_Vaccination only,0.0058,0.0058,0.0
+stroke_type_I,eth5_Mixed or multiple ethnic groups,-0.0035,0.0035,0.0
+onset_time_type_BE,covid_status_Vaccination only,0.0046,0.0046,0.0
+eth5_Mixed or multiple ethnic groups,stroke_severity_arrival,-0.0016,0.0016,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,covid_status_Vaccination only,-0.0039,0.0039,0.0
+stroke_type_PIH,eth5_Other ethnic group,0.0067,0.0067,0.0
+eth5_Other ethnic group,stroke_type_NK,-0.0023,0.0023,0.0
+eth5_Other ethnic group,stroke_type_I,-0.0062,0.0062,0.0
+eth5_Other ethnic group,stroke_severity_arrival,0.0053,0.0053,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,eth5_White,0.0054,0.0054,0.0
+eth5_Mixed or multiple ethnic groups,stroke_type_NK,-0.0022,0.0022,0.0
+eth5_Other ethnic group,prior_disability,-0.0009,0.0009,0.0
+"eth5_Black, Black British, Caribbean or African",stroke_severity_arrival,0.0028,0.0028,0.0
+onset_time_type_P,eth5_Other ethnic group,0.0006,0.0006,0.0
+eth5_Mixed or multiple ethnic groups,stroke_type_PIH,0.004,0.004,0.0
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,eth5_Mixed or multiple ethnic groups,0.0005,0.0005,0.0
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,eth5_White,-0.005,0.005,0.0
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,eth5_Asian or Asian British,0.001,0.001,0.0
+eth5_Other ethnic group,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,0.0059,0.0059,0.0
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,covid_status_Vaccination and infection,-0.001,0.001,0.0
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,eth5_Other ethnic group,-0.0024,0.0024,0.0
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,eth5_Other ethnic group,-0.0048,0.0048,0.0
+covid_status_Infection only,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,0.004,0.004,0.0
+any_afib_diagnosis,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0009,0.0009,0.0
+Treatment_time_270_both_only_mt_under_270mins,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0035,0.0035,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,eth5_Other ethnic group,0.0006,0.0006,0.0
+onset_time_type_BE,eth5_Other ethnic group,0.004,0.004,0.0
+eth5_Other ethnic group,onset_time_type_NK,-0.0048,0.0048,0.0
+eth5_Mixed or multiple ethnic groups,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.004,0.004,0.0
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,"eth5_Black, Black British, Caribbean or African",0.0039,0.0039,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,any_afib_diagnosis,-0.0013,0.0013,0.0
+covid_status_Infection only,Treatment_time_270_both_ivt_mt_under_270mins,-0.0005,0.0005,0.0
+covid_status_None,Treatment_time_270_both_ivt_mt_under_270mins,-0.0011,0.0011,0.0
+covid_status_Vaccination and infection,Treatment_time_270_both_ivt_mt_under_270mins,-0.0003,0.0003,0.0
+covid_status_Vaccination only,Treatment_time_270_both_ivt_mt_under_270mins,0.0013,0.0013,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,eth5_Asian or Asian British,0.0021,0.0021,0.0
+onset_time_type_NK,Treatment_time_270_both_ivt_mt_over_270mins,-0.003,0.003,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,onset_time_type_P,-0.0008,0.0008,0.0
+stroke_type_NK,Treatment_time_270_both_ivt_mt_over_270mins,-0.0014,0.0014,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.005,0.005,0.0
+Treatment_time_270_both_only_ivt_over_270mins,Treatment_time_270_both_ivt_mt_under_270mins,-0.0052,0.0052,0.0
+Treatment_time_270_both_only_mt_under_270mins,eth5_Mixed or multiple ethnic groups,0.0011,0.0011,0.0
+eth5_Other ethnic group,Treatment_time_270_both_ivt_mt_over_270mins,0.0003,0.0003,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,eth5_White,-0.0016,0.0016,0.0
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,Treatment_time_270_both_ivt_mt_over_270mins,-0.0019,0.0019,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.0041,0.0041,0.0
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,Treatment_time_270_both_ivt_mt_over_270mins,-0.003,0.003,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,Treatment_time_270_both_ivt_mt_over_270mins,0.0063,0.0063,0.0
+onset_time_type_BE,Treatment_time_270_both_ivt_mt_over_270mins,0.0037,0.0037,0.0
+onset_time_type_BE,eth5_White,-0.0013,0.0013,0.0
+eth5_White,prior_disability,0.0062,0.0062,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,covid_status_Vaccination only,0.0071,0.0071,0.0
+diabetes,Treatment_time_270_both_ivt_mt_over_270mins,-0.0034,0.0034,0.0
+eth5_Asian or Asian British,Treatment_time_270_both_ivt_mt_over_270mins,0.0002,0.0002,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,eth5_Mixed or multiple ethnic groups,0.001,0.001,0.0
+stroke_type_NK,"eth5_Black, Black British, Caribbean or African",-0.0027,0.0027,0.0
+eth5_Mixed or multiple ethnic groups,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.0016,0.0016,0.0
+Treatment_time_270_both_only_mt_over_270mins,covid_status_Infection only,-0.0002,0.0002,0.0
+covid_status_Vaccination and infection,Treatment_time_270_both_only_mt_over_270mins,0.0062,0.0062,0.0
+Treatment_time_270_both_only_mt_over_270mins,eth5_Asian or Asian British,-0.0005,0.0005,0.0
+eth5_Mixed or multiple ethnic groups,Treatment_time_270_both_only_mt_over_270mins,0.0034,0.0034,0.0
+Treatment_time_270_both_only_mt_over_270mins,eth5_Other ethnic group,0.007,0.007,0.0
+Treatment_time_270_both_only_mt_under_270mins,"eth5_Black, Black British, Caribbean or African",0.0037,0.0037,0.0
+eth5_Other ethnic group,Treatment_time_270_both_only_mt_under_270mins,0.0051,0.0051,0.0
+Treatment_time_270_both_only_mt_under_270mins,eth5_White,-0.006,0.006,0.0
+onset_time_type_BE,Treatment_time_270_both_only_mt_under_270mins,-0.0055,0.0055,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,Treatment_time_270_both_only_mt_under_270mins,-0.0035,0.0035,0.0
+age,diabetes,0.0006,0.0006,0.0
+Treatment_time_270_both_only_mt_under_270mins,Treatment_time_270_both_only_mt_over_270mins,-0.0041,0.0041,0.0
+onset_time_type_NK,stroke_type_I,0.0015,0.0015,0.0
+stroke_type_PIH,onset_time_type_NK,-0.007,0.007,0.0
+prior_disability,stroke_type_NK,0.0035,0.0035,0.0
+Treatment_time_270_both_only_mt_under_270mins,diabetes,-0.0051,0.0051,0.0
+eth5_Asian or Asian British,Treatment_time_270_both_only_mt_under_270mins,0.003,0.003,0.0
+IMD_2019_QUINTILES,stroke_type_NK,0.0017,0.0017,0.0
+covid_status_Infection only,Treatment_time_270_both_None,-0.0008,0.0008,0.0
+stroke_type_PIH,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.007,0.007,0.0
+onset_time_type_BE,stroke_type_NK,-0.0046,0.0046,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,Treatment_time_270_both_only_mt_over_270mins,-0.0058,0.0058,0.0
+Treatment_time_270_both_only_mt_under_270mins,stroke_type_NK,-0.0032,0.0032,0.0
+Treatment_time_270_both_only_ivt_under_270mins,eth5_Mixed or multiple ethnic groups,-0.0025,0.0025,0.0
+Treatment_time_270_both_only_ivt_under_270mins,eth5_Other ethnic group,-0.0008,0.0008,0.0
+eth5_White,Treatment_time_270_both_only_ivt_under_270mins,0.0054,0.0054,0.0
+Treatment_time_270_both_only_ivt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.003,0.003,0.0
+covid_status_Infection only,diabetes,0.006,0.006,0.0
+any_afib_diagnosis,onset_time_type_P,-0.0063,0.0063,0.0
+any_afib_diagnosis,stroke_type_NK,-0.0049,0.0049,0.0
+Treatment_time_270_both_only_ivt_over_270mins,onset_time_type_NK,-0.0047,0.0047,0.0
+Treatment_time_270_both_only_ivt_over_270mins,stroke_type_NK,-0.0047,0.0047,0.0
+covid_status_Infection only,Treatment_time_270_both_only_ivt_under_270mins,-0.0007,0.0007,0.0
+Treatment_time_270_both_only_ivt_under_270mins,covid_status_Vaccination and infection,0.0024,0.0024,0.0
+Treatment_time_270_both_only_ivt_under_270mins,eth5_Asian or Asian British,-0.0,0.0,0.0
+covid_status_Infection only,any_afib_diagnosis,0.0003,0.0003,0.0
+covid_status_None,stroke_type_PIH,0.0023,0.0023,0.0
+Treatment_time_270_both_only_mt_over_270mins,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.0031,0.0031,0.0
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,Treatment_time_270_both_only_mt_over_270mins,-0.0023,0.0023,0.0
+Treatment_time_270_both_only_mt_over_270mins,onset_time_type_P,0.0014,0.0014,0.0
+Treatment_time_270_both_only_mt_over_270mins,stroke_type_NK,-0.0048,0.0048,0.0
+covid_status_Infection only,Treatment_time_270_both_only_mt_under_270mins,0.0035,0.0035,0.0
+Treatment_time_270_both_only_mt_under_270mins,covid_status_Vaccination and infection,0.0014,0.0014,0.0
+diabetes,Treatment_time_270_both_only_ivt_over_270mins,-0.0065,0.0065,0.0
+eth5_Asian or Asian British,Treatment_time_270_both_only_ivt_over_270mins,0.0006,0.0006,0.0
+"eth5_Black, Black British, Caribbean or African",Treatment_time_270_both_only_ivt_over_270mins,0.0009,0.0009,0.0
+eth5_Mixed or multiple ethnic groups,Treatment_time_270_both_only_ivt_over_270mins,-0.0004,0.0004,0.0
+eth5_Other ethnic group,Treatment_time_270_both_only_ivt_over_270mins,0.0007,0.0007,0.0
+Treatment_time_270_both_only_ivt_over_270mins,eth5_White,-0.0017,0.0017,0.0
+Treatment_time_270_both_only_ivt_over_270mins,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.0047,0.0047,0.0
+diabetes,any_afib_diagnosis,0.0043,0.0043,0.0
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,IMD_2019_QUINTILES,0.006,0.006,0.0
+IMD_2019_QUINTILES,onset_time_type_BE,0.0052,0.0052,0.0
+"eth5_Black, Black British, Caribbean or African",Treatment_time_270_both_ivt_mt_over_270mins,-0.0001,0.0001,0.0
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,stroke_type_I,0.0015,0.0015,0.0
+IMD_2019_QUINTILES,Treatment_time_270_both_only_mt_under_270mins,0.0014,0.0014,0.0
+Treatment_time_270_both_only_mt_over_270mins,IMD_2019_QUINTILES,0.0029,0.0029,0.0
+Treatment_time_270_both_only_ivt_over_270mins,IMD_2019_QUINTILES,0.0001,0.0001,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,IMD_2019_QUINTILES,0.005,0.005,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,IMD_2019_QUINTILES,-0.0003,0.0003,0.0
+any_afib_diagnosis,Treatment_time_270_both_ivt_mt_over_270mins,-0.0021,0.0021,0.0
+covid_status_Infection only,Treatment_time_270_both_ivt_mt_over_270mins,-0.0009,0.0009,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,covid_status_Vaccination and infection,0.0014,0.0014,0.0
+eth5_White,stroke_type_NK,0.0033,0.0033,0.0
+eth5_White,Treatment_time_270_both_None,0.001,0.001,0.0
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,Treatment_time_270_both_None,0.006,0.006,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,Treatment_time_270_both_ivt_mt_over_270mins,-0.0016,0.0016,0.0
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,Treatment_time_270_both_ivt_mt_over_270mins,-0.0016,0.0016,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,Treatment_time_270_both_only_ivt_over_270mins,-0.0017,0.0017,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,Treatment_time_270_both_only_mt_over_270mins,-0.0018,0.0018,0.0
+Treatment_time_270_both_ivt_mt_over_270mins,Treatment_time_270_both_only_mt_under_270mins,-0.0011,0.0011,0.0
+covid_status_None,Treatment_time_270_both_None,0.0004,0.0004,0.0
+covid_status_Vaccination and infection,Treatment_time_270_both_None,-0.004,0.004,0.0
+covid_status_Vaccination only,Treatment_time_270_both_None,0.0007,0.0007,0.0
+Treatment_time_270_both_None,eth5_Asian or Asian British,-0.0011,0.0011,0.0
+Treatment_time_270_both_None,"eth5_Black, Black British, Caribbean or African",0.0037,0.0037,0.0
+eth5_Mixed or multiple ethnic groups,Treatment_time_270_both_None,-0.0002,0.0002,0.0
+eth5_Other ethnic group,Treatment_time_270_both_None,-0.0049,0.0049,0.0
+stroke_type_NK,onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,-0.0001,0.0001,0.0
+covid_status_Vaccination and infection,stroke_type_PIH,-0.0013,0.0013,0.0
+eth5_Asian or Asian British,covid_status_Vaccination and infection,0.0,0.0,0.0
+eth5_Mixed or multiple ethnic groups,covid_status_Vaccination and infection,-0.0012,0.0012,0.0
+covid_status_Vaccination and infection,eth5_Other ethnic group,-0.002,0.002,0.0
+covid_status_Vaccination and infection,eth5_White,0.0057,0.0057,0.0
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,covid_status_Vaccination and infection,-0.0055,0.0055,0.0
+onset_in_hospital_or_arrival_within_6hrs_in_hospital,covid_status_Vaccination and infection,0.0066,0.0066,0.0
+covid_status_Vaccination and infection,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,-0.0003,0.0003,0.0
+onset_time_type_BE,Treatment_time_270_both_only_ivt_over_270mins,-0.0065,0.0065,0.0
+covid_status_None,onset_time_type_BE,-0.0053,0.0053,0.0
+covid_status_None,onset_time_type_P,-0.0044,0.0044,0.0
+stroke_type_I,covid_status_None,-0.0035,0.0035,0.0
+stroke_type_NK,covid_status_None,0.0064,0.0064,0.0
+stroke_type_NK,Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,-0.0045,0.0045,0.0
+diabetes,covid_status_Vaccination and infection,0.007,0.007,0.0
+eth5_Asian or Asian British,prior_disability,0.0018,0.0018,0.0
+eth5_Asian or Asian British,stroke_severity_arrival,-0.0009,0.0009,0.0
+stroke_type_NK,eth5_Asian or Asian British,-0.0005,0.0005,0.0
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,"eth5_Black, Black British, Caribbean or African",-0.005,0.005,0.0
+"eth5_Black, Black British, Caribbean or African",onset_time_type_NK,-0.005,0.005,0.0
+stroke_type_I,covid_status_Vaccination only,0.0024,0.0024,0.0
+stroke_type_NK,covid_status_Vaccination only,-0.0066,0.0066,0.0
+covid_status_Vaccination only,stroke_type_PIH,-0.0011,0.0011,0.0
+diabetes,stroke_type_NK,-0.0031,0.0031,0.0
+onset_in_hospital_or_arrival_within_6hrs_onset_unknown,eth5_Asian or Asian British,-0.0064,0.0064,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,eth5_Asian or Asian British,0.0012,0.0012,0.0
+eth5_Asian or Asian British,onset_time_type_NK,-0.0064,0.0064,0.0
+covid_status_Vaccination and infection,IMD_2019_QUINTILES,0.0014,0.0014,0.0
+Treatment_time_270_both_only_mt_over_270mins,Treatment_time_270_both_only_ivt_over_270mins,-0.0061,0.0061,0.0
+Treatment_time_270_both_only_mt_under_270mins,Treatment_time_270_both_only_ivt_over_270mins,-0.0037,0.0037,0.0
+covid_status_Infection only,Treatment_time_270_both_only_ivt_over_270mins,0.0011,0.0011,0.0
+covid_status_Vaccination and infection,Treatment_time_270_both_only_ivt_over_270mins,0.0011,0.0011,0.0
+covid_status_Infection only,stroke_type_I,0.0045,0.0045,0.0
+covid_status_Infection only,stroke_type_NK,0.0003,0.0003,0.0
+stroke_type_PIH,covid_status_Infection only,-0.0046,0.0046,0.0
+covid_status_None,eth5_Asian or Asian British,0.0059,0.0059,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,covid_status_None,0.0048,0.0048,0.0
+covid_status_Infection only,eth5_Mixed or multiple ethnic groups,0.0047,0.0047,0.0
+eth5_Other ethnic group,covid_status_Infection only,0.0029,0.0029,0.0
+onset_in_hospital_or_arrival_within_6hrs_beyond_6hrs,covid_status_Infection only,-0.0051,0.0051,0.0
+covid_status_Infection only,onset_in_hospital_or_arrival_within_6hrs_onset_unknown,0.0035,0.0035,0.0
+stroke_type_NK,covid_status_Vaccination and infection,-0.0001,0.0001,0.0
+covid_status_Infection only,onset_time_type_NK,0.0035,0.0035,0.0
+onset_time_type_P,covid_status_Infection only,-0.0048,0.0048,0.0
+"eth5_Black, Black British, Caribbean or African",Treatment_time_270_both_ivt_mt_under_270mins,0.0041,0.0041,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,eth5_Mixed or multiple ethnic groups,0.0061,0.0061,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,eth5_Other ethnic group,0.0064,0.0064,0.0
+Treatment_time_270_both_ivt_mt_under_270mins,onset_in_hospital_or_arrival_within_6hrs_in_hospital,-0.0042,0.0042,0.0
+stroke_type_NK,Treatment_time_270_both_ivt_mt_under_270mins,-0.0045,0.0045,0.0
+Treatment_time_270_both_ivt_under_270mins_mt_over_270mins,Treatment_time_270_both_only_ivt_over_270mins,-0.0052,0.0052,0.0
+onset_in_hospital_or_arrival_within_6hrs_within_6hrs,covid_status_Vaccination and infection,0.0021,0.0021,0.0
+covid_status_Vaccination and infection,onset_time_type_BE,0.0019,0.0019,0.0
+onset_time_type_NK,covid_status_Vaccination and infection,-0.0003,0.0003,0.0
+covid_status_Vaccination and infection,onset_time_type_P,-0.0016,0.0016,0.0
+stroke_type_I,covid_status_Vaccination and infection,0.0013,0.0013,0.0
+onset_time_type_BE,covid_status_Infection only,0.0014,0.0014,0.0

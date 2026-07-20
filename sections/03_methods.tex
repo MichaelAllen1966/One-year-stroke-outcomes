@@ -1,0 +1,36 @@
+\section{Methods}
+
+\subsection{Data sources, patient selection, and study populations}
+
+Details of data sources, patient selection, and study populations are given in the supplementary material. A summary is presented here.
+
+All analysis were performed in the NHS England (NHSE) Secure Data Environment (SDE) using patient level data from seven internally hosted datasets, combining  data from the Sentinel Stroke National Audit Programme (SSNAP), demographic data, Hospital Episode Statistics (HES), Covid infection \& vaccination, and hometime data (days spent alive outside NHS inpatient care).
+
+Three populations were used in the analysis:
+
+\begin{enumerate}
+    
+    \item The \emph{full stroke population} (n = 388,345) contained patients that had a stroke and attended an acute stroke team between 1\textsuperscript{st} January 2018 and 31\textsuperscript{st} March 2023.
+    
+    \item The {matched population} of stroke patients (n = 236,630) were a set of stroke patients used to create a population of matched control patients (n = 236,630). Only patients arriving after 1\textsuperscript{st}November 2019 were included, to remove survival bias in the control data set (control patients were only available if they were alive in November 2019).
+
+    \item A \emph{reperfusion analysis cohort} of stroke patients (n = 136,395) considered suitable for consideration for reperfusion therapy with thrombolysis or thrombectomy. These patients all had ischaemic stroke, arrived at a stroke team within 6 hours of known onset time, and had their stroke outside of hospital.
+    
+\end{enumerate}
+
+\subsection{Descriptive statistics}
+
+Descriptive statistics was performed, comparing that matcher population of stroke and control patients. 
+
+
+\subsection{Survival analysis}
+
+Survival analysis was performed on the \textit{full stroke population} using a Cox proportional hazard ratio regression model. Features included in the model were age, sex, ethnicity, IMD quintiles, stroke severity, prior disability, stroke type, treatment received, and covid status (infection and/or vaccination).
+
+\subsection{Explainable machine learning for prediction of stroke patient outcome and location in the first year following their stroke}
+
+Explainable machine learning was used to predict outcome (alive/dead) and location (in or outside NHS in-patient care for surviving patients) in the \textit{full stroke population} and the \textit{reperfusion analysis cohort} population. Features were selected for the \textit{full stroke population} model as those features identified as improving prediction of outcomes, or of being of primary interest (deprivation, ethnicity, treatment, COVID status; see Supplementary Material for details), whereas features for the \textit{reperfusion analysis} model were treatment features  identified confounding features (those features associated with outcome directly, \textit{and} with use of reperfusion treatment previously identified \cite{pearn_thrombolysis_2026}.
+
+We chose XGBoost (eXtreme Gradient Boosting) \cite{chen_xgboost_2016} as our primary model type. This is because XGBoost is  a fast, efficient, and performs excellently across different types of tabular data, with minimal tuning required \cite{shwartz-ziv_tabular_2022}. XGBoost allows for complex non-linear relations and feature-interactions in the data. XGBoost, by itself, has poor explainability for any individual or group prediction. Three XGBoost models were fitted - one each for prediction of time in NHS in-patient care, time dead, and time alive, in the year after stroke. We added explainability by applying SHapley Additive exPlanations (SHAP) \cite{lundberg_consistent_2019} to the XGBoost output, to quantify the relative importance and directional effect of each clinical variable. Each XGBoost model has a SHAP baseline time in each location (which is common across all individual predictions from that model) which is altered by the SHAP value for each feature for an individual, the sum of which is the final model prediction. A positive SHAP value represents that the corresponding feature value increases the predicted duration for that individual, whereas a negative SHAP value reduces the predicted duration.
+
+Accuracy of models was tested using 5-fold cross-validation, where the data was split into five 80:20 training:test data sets, with each patient being in one, and only one, test set.  Accuracy is reported as R-squared.

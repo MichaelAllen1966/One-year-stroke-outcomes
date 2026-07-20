@@ -1,0 +1,71 @@
+,Stroke
+n,136395
+Sex,
+Male,72450
+Female,63950
+"Age, years",
+under 20,105
+20-40,2605
+40-60,20120
+60-80,61650
+over 80,51925
+Mean [std],74 [13.8]
+IMD quintiles (2019),
+1,25765
+2,26480
+3,28485
+4,28270
+5,27395
+Ethnicity,
+White,124155
+Asian or Asian British,6365
+"Black, Black British, Caribbean or African",3155
+Other ethnic group,1215
+Mixed or multiple ethnic groups,840
+Unknown,
+Covid,
+Infection only,1140
+Vaccination only,44985
+Vaccination and infection,1900
+None,88375
+Region,
+South East,22120
+North West,18260
+South West,16780
+East of England,16090
+Yorkshire and The Humber,12540
+West Midlands,13660
+London,14995
+East Midlands,12910
+North East,9035
+Rural/urban (2011),
+Urban,107925
+Rural,28475
+Acute treatment,
+No acute treatment,94150
+Early IVT only,34815
+Early MT only,800
+Early IVT and MT,1845
+Early IVT and late MT,1910
+Late IVT only,1360
+Late MT only,1415
+Late IVT and MT,110
+Prior disability,
+mRS0,71185
+mRS1,23340
+mRS2,14040
+mRS3,16490
+mRS4,8900
+mRS5,2395
+Stroke severity on arrival,
+No stroke symptoms,9180
+Minor stroke,50235
+Moderate stroke,52430
+Moderate to severe stroke,12025
+Severe stroke,12515
+Atrial fibrillation diagnosis,
+Yes,36590
+No,99805
+Onset known type,
+Precise,78560
+Best estimate,57840

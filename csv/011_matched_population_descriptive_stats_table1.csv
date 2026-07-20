@@ -1,0 +1,43 @@
+,Stroke,Control
+n,236630,236630
+Sex,,
+Male,126035,126035
+Female,110595,110595
+"Age, years",,
+under 20,130,240
+20-40,4460,5660
+40-60,36915,42565
+60-80,109170,116220
+over 80,85950,71945
+Mean [std],74 [13.7],71 [13.8]
+IMD quintiles (2019),,
+1,48050,36155
+2,46820,43155
+3,48305,49680
+4,48210,53355
+5,45250,54285
+Ethnicity,,
+White,213240,213240
+Asian or Asian British,12160,12160
+"Black, Black British, Caribbean or African",6545,6545
+Other ethnic group,2085,2085
+Mixed or multiple ethnic groups,1645,1645
+Unknown,955,955
+Covid,,
+Infection only,3445,415
+Vaccination only,124965,128500
+Vaccination and infection,5105,1210
+None,103115,106510
+Region,,
+South East,35680,41125
+North West,35295,30705
+South West,29145,27435
+East of England,26160,27965
+Yorkshire and The Humber,24880,23055
+West Midlands,24275,25085
+London,24055,28605
+East Midlands,22390,21120
+North East,14750,11535
+Rural/urban (2011),,
+Urban,188895,185025
+Rural,47740,51605
