@@ -1,5 +1,16 @@
 \section{Introduction}
 
-Stroke remains one of the top three global causes of death and disability \cite{feigin_global_2021}. Despite reductions in age-standardised rates of stroke, ageing populations are driving an increase in the absolute number of strokes \cite{feigin_global_2021}. Across Europe, in 2017, stroke was found to cost healthcare systems \texteuro 27 billion, or 1.7\% of health expenditure \cite{luengo-fernandez_economic_2020}. The burden is increasing; it has been estimated that the number of stroke survivors aged 45 and over in the UK will more than double between 2015 and 2035 \cite{king_future_2020}.
+Stroke remains one of the top three global causes of death and disability, accounting for 10.7\% of all deaths globally, and 5.7\% of lost disability-adjusted life-years (DALYs)  \cite{feigin_global_2021}. Despite reductions in age-standardised rates of stroke, ageing populations are driving an increase in the absolute number of strokes \cite{feigin_global_2021}. Across Europe, in 2017, stroke was found to cost healthcare systems \texteuro 27 billion, or 1.7\% of health expenditure \cite{luengo-fernandez_economic_2020}. The burden is increasing; it has been estimated that the number of stroke survivors aged 45 and over in the UK will more than double between 2015 and 2035 \cite{king_future_2020}.
 
-Though there is substantial work on the burden of stroke, our aim was to focus 
+The 2025 annual report from the Sentinel Stroke National Audit Programme (SSNAP) \cite{healthcare_quality_improvement_partnership_sentinel_2025} reported length of stay in acute care after a stroke, in England, Wales and Northern Ireland of 7.5 days (interquartile range 2.9–24.8). This was very largely unchanged from 2017 when length of stay was reported to have a median of 7.3 days (interquartile range 2.8–23.1) \cite{rodgers_stroke_2017}. 
+
+Survival after stroke in UK and Europe has improved in recent years. In study of 407 general practices in the UK \cite{gulliford_declining_2010}, between 1997 and 2005 1 year fatality rates were reported to reduce between 1997 and 2005 from 41.2\% to 29.2\% in women, and from 29.2\% to 22.2\% in men. In a study of ischaemic stroke patients in South London with stroke onset between 2000 and 2015 \cite{wafa_long-term_2020}, one-year adjusted case-fatality reduced from 32.6\% in 2000-2003 to 20.4\% in 2012-2015. A large Swedish cohort study \cite{ullberg_changes_2015}, reporting on stroke admissions in 2008-2010 reported fatality after stroke as 13.1\% after three months and 18.2\% at twelve months.
+
+The aim of our study was to complement and extend previous findings in the following ways:
+
+\begin{itemize}
+    \item Providing up-to-date information on one-year outcomes after stroke in England, including survival, time in NHS inpatient care, and time \textit{at home} (alive and outside NHS inpatient care).
+    \item Comparing one year outcomes after stroke with a cohort of matched non-stroke people (matched on age, ethnicity, and sex).
+    \item Investigating how outcomes differ with recent Covid infection and/or Covid vaccination.
+    \item Using both a Cox proportional hazards model, and explainable machine learning (XGBoost + SHAP) to investigate how difference in patients affect predicted one-year outcomes.
+\end{itemize}

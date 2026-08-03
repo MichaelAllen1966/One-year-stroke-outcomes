@@ -49,80 +49,77 @@ There were 236,630 instances in each of the matched populations (stroke and cont
     \label{tab:populations}
 \end{table}
 
-In the year following a stroke, stroke patients spent, on average (mean), 266.4 days at home (sd 138.6), 23.2 days in care (sd 32.7) and 75.5 days dead (sd 135.7). This was in comparison to the matched control population spending, on average (mean), 352.8 days at home (sd 50.8), 2.4 days in care (sd 10.2) and 9.8 days dead (sd 48.0). When comparing individual matched patients, stroke patients spent, on average (mean), 86.4 days less at home (sd 143.5), 20.8 more days in care (sd 34.1), and died 65.7 days sooner (sd 140.5). Detailed results for the stroke and control matched population are given in the supplementary material.
+In the year following a stroke, stroke patients spent, on average (mean), 266.4 days at home (sd 138.6), 23.2 days in care (sd 32.7) and 75.5 days dead (sd 135.7). This was in comparison to the matched control population spending, on average (mean), 352.8 days at home (sd 50.8), 2.4 days in care (sd 10.2) and 9.8 days dead (sd 48.0). When comparing individual matched patients, stroke patients spent, on average (mean), 86.4 days fewer at home (sd 143.5), 20.8 more days in care (sd 34.1), and 65.7 days more days dead (sd 140.5). Detailed results for the stroke and control matched population are given in the supplementary material.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Survival analysis following stroke}
 
-Survival analysis was performed on the full stroke population.
+Survival analysis was performed on the full stroke population. The 50 day and one year fatality rates in the full stroke population were 10.5\% and 22.0\%.
 
-We defined the baseline characteristics of a patient to be: white; under 60 years old; living in the 20\% most deprived area; had no Covid vaccination within 12 months of stroke event; had no Covid infection within 30 days of stroke event; receive no acute treatment (thrombolysis or thrombectomy), no diabetes, no arterial fibrillation, precisely known onset time, infarction, onset out of hospital and arrive within 6 hours. The survival rate of the baseline stroke patient for the exploratory population and the causal population in the first year following a stroke event is shown in figure \ref{survival_baseline}. Within 50 days of their stroke 10.5\% of the full exploratory stroke population have died, and 22.0\% being dead by the end of the first year following their stroke. In comparison, 9.3\% of the causal stroke population have died within the first year of the stroke event, and 19.9\% being dead at the end of the first year following their stroke.
+We defined the baseline characteristics of a patient to be: white; under 60 years old; living in the 20\% most deprived area (quintile 1); had no Covid vaccination within 12 months of stroke event; had no Covid infection within 30 days of stroke event; received no acute treatment (thrombolysis or thrombectomy), no diagnosis of diabetes, no diagnosis of arterial fibrillation, precisely known onset time (\textit{c.f} unknown or estimated stroke onset time), infarction stroke, onset out of hospital stroke occurrence, and arrived at an emergency stroke hospital within 6 hours of stroke onset. The effect of a patient characteristics on risk of death are shown as hazard ratios for each feature as a forest plot (figure \ref{fig:forest_plot_main}) with the features ranked by impact on survival.
 
-The effect of a patients characteristics deviating from this defined baseline stroke patient (for each population: exploratory and causal) are shown as hazard ratios for each feature as a forest plot (figure \ref{fig:forest_plot_main}) with the features ranked by impact on survival.
-
-\begin{figure}[ht]
+\begin{figure}[ht!]
   \centering
   \includegraphics[width=1.0\textwidth]{./images/output_results_from_SDE/ccu085_040_forest_plot_hazard_ratios_from_cox_proportional_hazard_ratio_model_survival_in_year_following_stroke_exploratory_population}
-  \caption{Forest plot of one-year post-stroke survival rates, with reference (baseline) categories defined as: white ethnicity; age under 60 years; residence in the most deprived 20\% of areas; no Covid-19 vaccination within 12 months before stroke; no Covid-19 infection within 30 days before stroke; no acute treatment received (thrombolysis or thrombectomy); no stroke symptoms present on arrival; no pre-existing disability; no diabetes; no atrial fibrillation; ischaemic stroke subtype; community (out-of-hospital) onset; and arrival within 6 hours of onset.}
+  \caption{Forest plot of hazard rations for one-year post-stroke survival, with reference (baseline) categories defined as: white ethnicity; age under 60 years; residence in the most deprived 20\% of areas; no Covid-19 vaccination within 12 months before stroke; no Covid-19 infection within 30 days before stroke; no acute treatment received (thrombolysis or thrombectomy); no stroke symptoms present on arrival; no pre-existing disability; no diabetes; no atrial fibrillation; ischaemic stroke subtype; community (out-of-hospital) onset; and arrival within 6 hours of onset. Bars show estimated Hazard Ratio, with 95\% confidence intervals.}
   \label{fig:forest_plot_main}
 \end{figure}
 
-The five characteristics (deviating from the baseline characteristics) that had the largest impact on increasing the risk of death of a stroke patient in the first year following their stroke were: 1. having a severe stroke (rather than no stroke symptoms); 2. being over 80 years old (rather than under 60); 3. having a moderate to severe stroke (rather than no stroke symptoms); 4. having a prior disability of mRS5 (rather than mRS0); 5. having a prior disability of mRS4 (rather than mRS0). These characteristics increased risk of death by 727\%, 424\%, 402\%, 259\%, and 254\%. 
+The five characteristics (deviating from the baseline characteristics) that had the largest impact on predicting increased the risk of death of a stroke patient in the first year following their stroke were: 1. having a severe stroke (rather than no stroke symptoms); 2. being over 80 years old (rather than under 60); 3. having a moderate to severe stroke (rather than no stroke symptoms); 4. having a prior disability of mRS5 (rather than mRS0); 5. having a prior disability of mRS4 (rather than mRS0). These characteristics increased a patient's predicted risk of death by 727\%, 424\%, 402\%, 259\%, and 254\%. 
 
-The five characteristics (deviating from the baseline characteristics) that had the largest impact on reducing the risk of death of a stroke patient (from the exploratory population) in the first year following their stroke are: 1. having early IVT and MT (rather than no treatment); 2. early MT only (rather than no treatment; 3. early IVT with late MT (rather than no treatment; 4. Black (rather than white); 5. Asian (rather than white). These characteristics reduced a patients risk of death by 42\%, 57\%, 62\%, 65\%, and 67\%.
+The five characteristics (deviating from the baseline characteristics) that had the largest impact on predicting reduced risk of death of a stroke patient (from the exploratory population) in the first year following their stroke are: 1. having early IVT and MT (rather than no treatment); 2. early MT only (rather than no treatment; 3. early IVT with late MT (rather than no treatment; 4. Black (rather than white); 5. Asian (rather than white). These characteristics reduced a patient's predicted risk of death by 42\%, 57\%, 62\%, 65\%, and 67\%.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Explainable machine learning}
 
-When investigating the full stroke population, twelve features were chosen to investigate how patient characteristics affect outcomes (see Supplementary Material for detailed results). With these features selected, the R-squared for prediction of time spent in care, at home, or dead, were  12.0\% 38.0\ and 34.7\%. 
+When investigating the full stroke population, twelve features were chosen to investigate how patient characteristics affect outcomes (see Supplementary Material for detailed results). With these features selected, the R-squared for prediction of time spent in care, at home, or dead, were  12.0\% 38.0\% and 34.7\%. 
 
-Figures \ref{fig:shap_1} to \ref{fig:shap_3} show how general patient characteristics affect model predictions. General observations are, common across both models, unless otherwise commented on:
+Figures \ref{fig:shap_1} to \ref{fig:shap_3} show how general patient characteristics affect model predictions. 
 
 \begin{itemize}
-    \item \textit{Stroke severity}: Time in NHS inpatient care increased and then reduced with increasing stroke severity. Time at home reduced with increasing stroke severity, while time dead increased.
+    \item \textit{Stroke severity}: Predicted time in NHS inpatient care increased and then reduced with increasing stroke severity. Predicted time at home reduced with increasing stroke severity, while predicted time dead increased.
 
-    \item \textit{Prior disability}: Time in NHS inpatient care increased and then reduced with increasing prior disability. Time at home reduced with increasing prior disability, while time dead increased.
+    \item \textit{Prior disability}: Predicted time in NHS inpatient care increased and then reduced with increasing prior disability. Predicted time at home reduced with increasing prior disability, while predicted time dead increased.
 
-    \item \textit{Age}: There was no clear pattern in time in NHS inpatient care with age, but time at home reduced with increasing age, while time dead reduced.
+    \item \textit{Age}: There was no clear pattern in predicted time in NHS inpatient care with age, but predicted time at home reduced with increasing age, while predicted time dead reduced.
 
     \item \textit{Ethnicity}: Being in Black, Mixed, and Other ethnic groups led to a prediction of higher time in NHS inpatient care. Being in White ethnic group, compared to other groups, led to lower predictions of time at home, and higher predictions of time dead.
 
-    \item \textit{Deprivation} (IMD quintile): Increasing deprivation predicted slightly higher time in care, slightly lower time at home, slightly higher time dead.
+    \item \textit{Deprivation} (IMD quintile): Increasing deprivation predicted slightly higher time in care, slightly lower time at home, and slightly higher time dead.
 
-     \item \textit{Covid status}: Covid infection, with or without vaccine led to a prediction of higher length in NHS inpatient care. Covid infection without vaccine led to predictions of lower time and at home, and more time dead. The effect of Covid infection was largely ameliorated by having being vaccinated.
+     \item \textit{Covid status}: Covid infection, with or without vaccine led to a prediction of higher length in NHS inpatient care. Covid infection without vaccine led to predictions of lower time and at home, and more time dead. The effect of Covid infection was largely mitigated by having being vaccinated.
 
      \item \textit{Stroke type}: Stroke type did not significantly alter predictions of time in care, but hemorrhagic stroke (adjusting for stroke severity) was associated with less time at home, and more time dead, compared to ischemic stroke.
 
      \item \textit{Atrial fibrillation}: A diagnosis of atrial fibrillation made little difference to predicted time in NHS inpatient care, but led to lower predicted time at home, and higher predicted time dead.
 
-     \item \textit{Diabetes}: A diagnosis of diabetes led to a prediction of a little more time in care, less time at home and more time dead.    
+     \item \textit{Diabetes}: A diagnosis of diabetes led to a prediction of a little more time in care, less time at home and more time dead. 
+     
 \end{itemize}
 
-Examining how reperfusion treatment received affects predicted outcomes was performed using the full stroke population which all used predictive features, and in a population and choice of features chosen to better isolate the causal influence of treatment (figure \ref{fig:shap_4}).
-
-Across both models were the observations, after adjusting for all other features in the models were:
+Examining how reperfusion treatment received affects predicted outcomes was performed using the full stroke population which all used predictive features, and in a population and choice of features chosen to better isolate the causal influence of treatment (figure \ref{fig:shap_4}). Across both models, after adjusting for all other features in the models we observed the following:
 
 \begin{itemize}
-    \item Early treatment with IVT and MT predicted lower time in NHS inpatient care, more time at home, and less time dead.
+    \item \textit{Early treatment with IVT and MT} predicted lower time in NHS inpatient care, more time at home, and less time dead.
 
-    \item Early treatment with IVT but late treatment with MT predicted increased time in NHS inpatient care, but less at home. The models differ in whether time dead is increased or reduced.
+    \item \textit{Early treatment with IVT but late treatment with MT} predicted increased time in NHS inpatient care, but less at home. The two models differ in whether time dead is increased or reduced.
 
-    \item Early treatment with IVT alone was associated with slightly lower time in NHS inpatient care, and more time at home (with little difference time dead).
+    \item \textit{Early treatment with IVT alone} was associated with slightly lower time in NHS inpatient care, and more time at home (with little difference time dead).
 
-     \item Early treatment with MT alone was associated with little difference in time in care, time at home, or time at home outcomes.
+     \item \textit{Early treatment with MT alone} was associated with little difference in time in care, time at home, or time at home outcomes.
 
-     \item Late treatment with both IVT and MT was associated with less time at home or more time dead. The models differ in whether time in NHS inpatient care was increased or largely unchanged.
+     \item \textit{Late treatment with both IVT and MT} was associated with less time at home or more time dead. The models differ in whether time in NHS inpatient care was increased or largely unchanged.
 
-     \item Late treatment with IVT alone predicted little change in outcome.
+     \item \textit{Late treatment with IVT alone} predicted little change in outcome.
 
-     \item Late treatment with MT alone predicted longer length of stay in NHS inpatient care, less time at home, and more time dead.     
+     \item \textit{Late treatment with MT alone} predicted longer length of stay in NHS inpatient care, less time at home, and more time dead.     
     
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
     \centering
 
     % ---------- Row 1 ----------
@@ -207,7 +204,7 @@ Across both models were the observations, after adjusting for all other features
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
     \centering
 
     % ---------- Row 1 ----------
@@ -290,7 +287,7 @@ Across both models were the observations, after adjusting for all other features
     \label{fig:shap_2}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[htbp]
     \centering
@@ -375,9 +372,10 @@ Across both models were the observations, after adjusting for all other features
     \label{fig:shap_3}
 \end{figure}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
     \centering
 
     % ---------- Row 1 ----------
@@ -402,7 +400,7 @@ Across both models were the observations, after adjusting for all other features
         \caption{Dead}
         \label{fig:sub3}
     \end{subfigure}
-    \caption*{Treatment (full population and model)}
+    \caption*{Treatment (full stroke population and full model)}
 
     \vspace{2em} % space between rows
 
@@ -426,7 +424,7 @@ Across both models were the observations, after adjusting for all other features
         \caption{Dead}
         \label{fig:sub3}
     \end{subfigure}
-    \caption*{Treatment (reperfusion analysis cohort)}
+    \caption*{Treatment (reperfusion analysis cohort and restricted model)}
 
 
     \vspace{2em}

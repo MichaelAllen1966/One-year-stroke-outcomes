@@ -33,6 +33,7 @@
 \usepackage{cclicenses} % For creative commons license
 \usepackage{xcolor} % for coloured text
 \usepackage{xurl} %for url but with more flexible linebreaking
+\usepackage[hidelinks]{hyperref} % load hyperref after xurl
 
 
 \usepackage{mwe,tikz}\usepackage[percent]{overpic} % overlay figures (for fig 2)
@@ -78,11 +79,11 @@
 %TC:endignore
 
 
-\input{sections/01_abstract}
+\include{sections/01_abstract}
 \input{sections/02_introduction}
 \input{sections/03_methods}
 \input{sections/04_results}
-\input{sections/05_discussion}
+\include{sections/05_discussion}
 
 %\newpage
 
